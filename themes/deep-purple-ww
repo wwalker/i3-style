@@ -7,12 +7,12 @@ bar_colors:
   background: black
   statusline: white
   focused_workspace:
-    border: indigo
+    border: blue
     background: indigo
     text: white
   active_workspace:
     border: darkslategrey3
-    background: dimgrey
+    background: darkblue
     text: white
   inactive_workspace:
     border: black
@@ -40,26 +40,29 @@ colors:
   indigo: '#551a8b'
   lightgrey: '#aaaaaa'
   deep-purple: '#3b1261'
+  purple: '#800080'
   red: '#ff0000'
   white: '#ffffff'
+  yellow: '#ffff00'
 window_colors:
   focused:
-    border: deep-purple
-    background: deep-purple
+    border: green
+    background: purple
     text: white
+      # indicator: blue
     indicator: indigo1
   focused_inactive:
-    border: darkslategrey3
-    background: dimgrey
+    border: white
+    background: deep-purple
     text: white
     indicator: darkslategrey4
   unfocused:
-    border: black1
+    border: lightgrey
     background: black1
     text: grey
     indicator: darkslategrey1
   urgent:
-    border: darkslategrey2
+    border: red
     background: darkred
     text: white
     indicator: darkred
